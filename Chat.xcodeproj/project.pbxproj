@@ -11,6 +11,8 @@
 		1D5001272B77757A00C67C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001262B77757A00C67C1D /* ContentView.swift */; };
 		1D5001292B77758000C67C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5001282B77758000C67C1D /* Assets.xcassets */; };
 		1D50012C2B77758000C67C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D50012B2B77758000C67C1D /* Preview Assets.xcassets */; };
+		1D5001332B77760900C67C1D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001322B77760800C67C1D /* LoginView.swift */; };
+		1D5001352B78BD1C00C67C1D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001342B78BD1C00C67C1D /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1D5001262B77757A00C67C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D5001282B77758000C67C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D50012B2B77758000C67C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D5001322B77760800C67C1D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1D5001342B78BD1C00C67C1D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				1D5001262B77757A00C67C1D /* ContentView.swift */,
 				1D5001282B77758000C67C1D /* Assets.xcassets */,
 				1D50012A2B77758000C67C1D /* Preview Content */,
+				1D5001322B77760800C67C1D /* LoginView.swift */,
+				1D5001342B78BD1C00C67C1D /* RegisterView.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5001332B77760900C67C1D /* LoginView.swift in Sources */,
+				1D5001352B78BD1C00C67C1D /* RegisterView.swift in Sources */,
 				1D5001272B77757A00C67C1D /* ContentView.swift in Sources */,
 				1D5001252B77757A00C67C1D /* ChatApp.swift in Sources */,
 			);
