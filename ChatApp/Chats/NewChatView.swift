@@ -20,7 +20,7 @@ struct NewChatView: View {
                         .padding(.bottom)
                     
                     ForEach(1..<10, id: \.self) { _ in
-                        ContactCell()
+                        ContactCellView()
                         Divider()
                     }
                 }
@@ -43,19 +43,4 @@ struct NewChatView_Previews: PreviewProvider {
     }
 }
 
-struct ContactCell: View {
-    var body: some View {
-        HStack {
-            Image(systemName: "person.circle.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 35, height: 35)
-                .foregroundColor(.gray)
-            
-            Text("James Howlett")
-            
-            Spacer()
-        }
-        .padding(.leading, 5)
-    }
-}
+

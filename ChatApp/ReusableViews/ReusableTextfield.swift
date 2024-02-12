@@ -12,6 +12,7 @@ struct ReusableTextfield: View {
     @State var placeholder: String = ""
     @State var textfieldWidth: CGFloat
     @State var isSecure: Bool
+    @State var axis: Axis = .vertical
     
     var body: some View {
         RoundedRectangle(cornerRadius: 8)
@@ -22,8 +23,9 @@ struct ReusableTextfield: View {
                     SecureField("Password", text: $textfield)
                         .padding(.leading, 10)
                 } else {
-                    TextField(placeholder, text: $textfield)
+                    TextField(placeholder, text: $textfield, axis: axis)
                         .padding(.leading, 10)
+                        .padding(.trailing, 5)
                 }
             }
     }
