@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D24D03F2B79E6870075AB3A /* OnboardingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24D03E2B79E6870075AB3A /* OnboardingHeaderView.swift */; };
+		1D24D0412B79E6BB0075AB3A /* ReusableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24D0402B79E6BB0075AB3A /* ReusableTextfield.swift */; };
+		1D24D0482B79E74B0075AB3A /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24D0472B79E74B0075AB3A /* InboxView.swift */; };
+		1D24D04D2B79EEE40075AB3A /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24D04C2B79EEE40075AB3A /* InboxRowView.swift */; };
+		1D24D0582B79F0F70075AB3A /* NewChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24D0572B79F0F70075AB3A /* NewChatView.swift */; };
 		1D5001252B77757A00C67C1D /* ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001242B77757A00C67C1D /* ChatApp.swift */; };
 		1D5001272B77757A00C67C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001262B77757A00C67C1D /* ContentView.swift */; };
 		1D5001292B77758000C67C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5001282B77758000C67C1D /* Assets.xcassets */; };
-		1D50012C2B77758000C67C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D50012B2B77758000C67C1D /* Preview Assets.xcassets */; };
 		1D5001332B77760900C67C1D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001322B77760800C67C1D /* LoginView.swift */; };
 		1D5001352B78BD1C00C67C1D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5001342B78BD1C00C67C1D /* RegisterView.swift */; };
+		1D5FB2C72B7A636D00D2D77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5FB2C62B7A636D00D2D77C /* Preview Assets.xcassets */; };
+		1D5FB2C92B7A8A6300D2D77C /* InboxToolBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FB2C82B7A8A6300D2D77C /* InboxToolBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D24D03E2B79E6870075AB3A /* OnboardingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHeaderView.swift; sourceTree = "<group>"; };
+		1D24D0402B79E6BB0075AB3A /* ReusableTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTextfield.swift; sourceTree = "<group>"; };
+		1D24D0472B79E74B0075AB3A /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		1D24D04C2B79EEE40075AB3A /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
+		1D24D0572B79F0F70075AB3A /* NewChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatView.swift; sourceTree = "<group>"; };
 		1D5001212B77757A00C67C1D /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5001242B77757A00C67C1D /* ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatApp.swift; sourceTree = "<group>"; };
 		1D5001262B77757A00C67C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D5001282B77758000C67C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D50012B2B77758000C67C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D5001322B77760800C67C1D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1D5001342B78BD1C00C67C1D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		1D5FB2C62B7A636D00D2D77C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D5FB2C82B7A8A6300D2D77C /* InboxToolBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxToolBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,10 +48,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D24D0422B79E6E30075AB3A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1D24D0492B79E9360075AB3A /* Models */,
+				1D24D04A2B79E93B0075AB3A /* Views */,
+				1D24D04B2B79E94C0075AB3A /* ViewModels */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1D24D0432B79E6F70075AB3A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				1D5001242B77757A00C67C1D /* ChatApp.swift */,
+				1D5001262B77757A00C67C1D /* ContentView.swift */,
+				1D5001282B77758000C67C1D /* Assets.xcassets */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		1D24D0452B79E70B0075AB3A /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				1D24D0402B79E6BB0075AB3A /* ReusableTextfield.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		1D24D0492B79E9360075AB3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D24D04A2B79E93B0075AB3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D5001322B77760800C67C1D /* LoginView.swift */,
+				1D5001342B78BD1C00C67C1D /* RegisterView.swift */,
+				1D24D03E2B79E6870075AB3A /* OnboardingHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D24D04B2B79E94C0075AB3A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1D24D0522B79EFDB0075AB3A /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				1D24D0552B79F0570075AB3A /* Models */,
+				1D24D0542B79F0510075AB3A /* Views */,
+				1D24D0532B79F0440075AB3A /* ViewModels */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		1D24D0532B79F0440075AB3A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1D24D0542B79F0510075AB3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D24D0472B79E74B0075AB3A /* InboxView.swift */,
+				1D24D04C2B79EEE40075AB3A /* InboxRowView.swift */,
+				1D5FB2C82B7A8A6300D2D77C /* InboxToolBarButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D24D0552B79F0570075AB3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D24D0562B79F0E20075AB3A /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				1D24D0572B79F0F70075AB3A /* NewChatView.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
 		1D5001182B77757A00C67C1D = {
 			isa = PBXGroup;
 			children = (
-				1D5001232B77757A00C67C1D /* Chat */,
+				1D5001232B77757A00C67C1D /* ChatApp */,
 				1D5001222B77757A00C67C1D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,23 +158,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D5001232B77757A00C67C1D /* Chat */ = {
+		1D5001232B77757A00C67C1D /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				1D5001242B77757A00C67C1D /* ChatApp.swift */,
-				1D5001262B77757A00C67C1D /* ContentView.swift */,
-				1D5001282B77758000C67C1D /* Assets.xcassets */,
-				1D50012A2B77758000C67C1D /* Preview Content */,
-				1D5001322B77760800C67C1D /* LoginView.swift */,
-				1D5001342B78BD1C00C67C1D /* RegisterView.swift */,
+				1D5FB2C52B7A636D00D2D77C /* Preview Content */,
+				1D24D0432B79E6F70075AB3A /* General */,
+				1D24D0452B79E70B0075AB3A /* ReusableViews */,
+				1D24D0422B79E6E30075AB3A /* Onboarding */,
+				1D24D0522B79EFDB0075AB3A /* Inbox */,
+				1D24D0562B79F0E20075AB3A /* Chats */,
 			);
-			path = Chat;
+			path = ChatApp;
 			sourceTree = "<group>";
 		};
-		1D50012A2B77758000C67C1D /* Preview Content */ = {
+		1D5FB2C52B7A636D00D2D77C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1D50012B2B77758000C67C1D /* Preview Assets.xcassets */,
+				1D5FB2C62B7A636D00D2D77C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -131,7 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D50012C2B77758000C67C1D /* Preview Assets.xcassets in Resources */,
+				1D5FB2C72B7A636D00D2D77C /* Preview Assets.xcassets in Resources */,
 				1D5001292B77758000C67C1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,9 +249,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D24D0482B79E74B0075AB3A /* InboxView.swift in Sources */,
 				1D5001332B77760900C67C1D /* LoginView.swift in Sources */,
+				1D24D0582B79F0F70075AB3A /* NewChatView.swift in Sources */,
 				1D5001352B78BD1C00C67C1D /* RegisterView.swift in Sources */,
+				1D24D04D2B79EEE40075AB3A /* InboxRowView.swift in Sources */,
+				1D24D03F2B79E6870075AB3A /* OnboardingHeaderView.swift in Sources */,
+				1D5FB2C92B7A8A6300D2D77C /* InboxToolBarButton.swift in Sources */,
 				1D5001272B77757A00C67C1D /* ContentView.swift in Sources */,
+				1D24D0412B79E6BB0075AB3A /* ReusableTextfield.swift in Sources */,
 				1D5001252B77757A00C67C1D /* ChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +386,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chat;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,9 +414,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chat;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

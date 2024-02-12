@@ -21,10 +21,10 @@ struct RegisterView: View {
                 .padding([.top, .bottom])
             
             VStack(spacing: 15){
-                ReusableTextfield(textfield: $firstName, placeholder: "First Name", isSecure: false)
-                ReusableTextfield(textfield: $lastName, placeholder: "Last Name", isSecure: false)
-                ReusableTextfield(textfield: $email, placeholder: "E-Mail Address", isSecure: false)
-                ReusableTextfield(textfield: $password, isSecure: true)
+                ReusableTextfield(textfield: $firstName, placeholder: "First Name", textfieldWidth: UIScreen.main.bounds.width / 1.2, isSecure: false)
+                ReusableTextfield(textfield: $lastName, placeholder: "Last Name", textfieldWidth: UIScreen.main.bounds.width / 1.2, isSecure: false)
+                ReusableTextfield(textfield: $email, placeholder: "E-Mail Address", textfieldWidth: UIScreen.main.bounds.width / 1.2, isSecure: false)
+                ReusableTextfield(textfield: $password, textfieldWidth: UIScreen.main.bounds.width / 1.2, isSecure: true)
                 
                 Button {
                     //
